@@ -1,0 +1,5 @@
+C++ 202002
+64-bit
+sizeof(void*): 8
+Detecting compiler... LLVM/Apple clang 15.0.7 
+Detecting standard library... GNU libstdc++: 20230510

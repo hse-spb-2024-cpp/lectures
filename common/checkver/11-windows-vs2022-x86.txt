@@ -1,0 +1,5 @@
+C++ 199711
+32-bit
+sizeof(void*): 4
+Detecting compiler... Microsoft Visual C++ 1937
+Detecting standard library... Microsoft STL: 143 at 202305

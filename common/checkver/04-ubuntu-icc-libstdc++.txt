@@ -1,0 +1,5 @@
+C++ 202002
+64-bit
+sizeof(void*): 8
+Detecting compiler... Intel C++ Compiler Classic: 2021 Intel(R) C++ g++ 11.4 mode
+Detecting standard library... GNU libstdc++: 20230528

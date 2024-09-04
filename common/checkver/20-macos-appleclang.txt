@@ -1,0 +1,5 @@
+C++ 202002
+64-bit
+sizeof(void*): 8
+Detecting compiler... LLVM/Apple clang 14.0.3 (clang-1403.0.22.14.1)
+Detecting standard library... LLVM/Apple libc++: 15006

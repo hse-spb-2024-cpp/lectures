@@ -1,0 +1,5 @@
+C++ 202002
+64-bit
+sizeof(void*): 8
+Detecting compiler... GNU C 13.3.0
+Detecting standard library... GNU libstdc++: 20230510
