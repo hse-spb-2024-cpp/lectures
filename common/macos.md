@@ -17,7 +17,7 @@
 4. Выполните команды:
    ```bash
    brew update  # Обновление списка доступных пакетов
-   brew install llvm@18 cppcheck git cmake make coreutils # Установка инструментов LLVM, cppcheck не той версии, git, cmake, make, вспомогательной команды timeout
+   brew install llvm@15 cppcheck git cmake make coreutils # Установка инструментов LLVM, cppcheck не той версии, git, cmake, make, вспомогательной команды timeout
    ```
    Интерпретаторы bash и Python уже стоят.
 5. Теперь у вас должны появиться команды `cmake` и `cppcheck`.
@@ -25,7 +25,7 @@
    Вам нужно дописать в файл `$HOME/.bash_profile` (для Bash) или `$HOME/.zprofile` (для Zsh) строчки, которые выводит команда `brew shellenv`.
    После этого переоткройте консоль/CLion, чтобы они увидели изменения.
 6. Чтобы появились команды команды вроде `clang-format`,
-   надо добавить в этот же файл в конце строчку `export PATH=$PATH:"$(brew --prefix llvm@18)/bin"`.
+   надо добавить в этот же файл в конце строчку `export PATH=$PATH:"$(brew --prefix llvm@15)/bin"`.
    После этого переоткройте консоль/CLion, чтобы они увидели изменения. 
    * Тут важно дописать что-то именно в конец переменной `PATH`, иначе также появятся связанные с `clang-format` команды `clang++`, `g++`, которые конфликтуют со стандартными командами Xcode.
 7. Если хотите установить Windows на процессор Intel, то **TODO**.
@@ -45,10 +45,10 @@
 
 ## Актуальные версии инструментов
 ```bash
-g++ --version # На самом деле это clang: Apple clang version 15.0.0 (clang-1500.3.9.4)
-clang++ --version  # Apple clang version 15.0.0 (clang-1500.3.9.4)
-clang-format --version  # Homebrew clang-format version 18.1.7
-clang-tidy --version  # Homebrew LLVM version 18.1.7
+g++ --version # На самом деле это clang: Apple clang version 14.0.3 (clang-1403.0.22.14.1)
+clang++ --version  # Apple clang version 14.0.3 (clang-1403.0.22.14.1)
+clang-format --version  # Homebrew clang-format version 15.0.7
+clang-tidy --version  # Homebrew LLVM version 15.0.7
 cppcheck --version  # Cppcheck 2.11.1
 git  # git version 2.42.0
 timeout --version  # timeout (GNU coreutils) 9.4
