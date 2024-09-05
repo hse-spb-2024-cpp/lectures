@@ -17,7 +17,7 @@
 4. При желании установите больше компиляторов и стандартных библиотек:
 
     ```bash
-    sudo apt install clang-15  # Компилятор Clang 14
+    sudo apt install clang-15  # Компилятор Clang 15
     sudo apt install libc++-15-dev libc++abi-15-dev  # Стандартная библиотека libc++
     ```
 5. При желании также установите компилятор Intel C++ Compiler (не путать с Intel DPC++ Compiler).
