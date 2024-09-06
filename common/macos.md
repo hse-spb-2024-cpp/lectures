@@ -118,7 +118,7 @@ clang++ -std=c++17 -pedantic-errors -Wall -Wextra -Werror sample.cpp
 #### Процессор Intel
 Установите виртуальную машину [Oracle VirtualBox](https://www.virtualbox.org/wiki/Downloads) (macOS / Intel hosts).
 
-Скачайте готовый образ с Ubuntu **22.04** от проекта OSboxes и разархивируйте его:
+Скачайте готовый образ с Ubuntu **22.04** от проекта OSboxes, разархивируйте его и перенесите файл .vdi из папки 64bit в саму папку Загрузки, а папку 64bit удалите.
 - [Ubuntu Mate](https://www.osboxes.org/ubuntu-mate/) - для слабых ноутбуков, 8 ГБ памяти или для всех, если вы хотите, чтобы меньше тормозило.
 - [Ubuntu](https://www.osboxes.org/ubuntu/) - для всех остальных.
 
@@ -137,6 +137,9 @@ clang++ -std=c++17 -pedantic-errors -Wall -Wextra -Werror sample.cpp
 
 #### Настройка ВМ
 Пройдите полный туториал по настройке Ubuntu.
+
+### Завершение
+Удалите все лишние файлы из Загрузок, кроме образа с Ubuntu (11 ГБ) и самого приложения Visual Studio Code (600 MB). Архивы, в которых они были изначально скачаны, нужно удалить и почистить корзину.
 
 ### Особенности компиляции на маке с Apple Clang
 
