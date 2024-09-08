@@ -42,11 +42,12 @@ echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> ~/.zprofile
 brew install llvm@15 cmake boost cppcheck coreutils
 ```
 
-Введите в терминале:
+Введите в терминале и **переоткройте терминал**:
 ```
-sudo ln -s "$(brew --prefix llvm@15)/bin/clang-format" "/usr/local/bin/clang-format"
-sudo ln -s "$(brew --prefix llvm@15)/bin/clang-tidy" "/usr/local/bin/clang-tidy"
+echo 'export PATH=$PATH:"$(brew --prefix llvm@15)/bin"' >> ~/.zprofile
 ```
+
+Это добавит команды `clang-format` и `clang-tidy`.
 
 git и make будут установлены вместе с xcode-select.
 
