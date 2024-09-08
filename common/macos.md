@@ -66,7 +66,7 @@ clang-tidy --version  # Homebrew LLVM version 15.0.7
 
 cppcheck --version  # Cppcheck 2.15.0
 timeout --version  # timeout (GNU coreutils) 9.5
-cmake --version  # cmake version 3.30.4
+cmake --version  # cmake version 3.30.3
 
 # Идут в комплекте с xcode-select
 git --version  # git version 2.39.3
