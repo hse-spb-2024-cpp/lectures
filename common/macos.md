@@ -4,6 +4,8 @@
 
 Инструкция также протестирована на MacBook Air 13" 2017 с macOS Monterey 12.7.6, Intel i5, 8 ГБ. Различия: Apple clang 14.0.0, git 2.37.1.
 
+[Видео версия туториала](https://disk.yandex.ru/d/MZsj_vRXFV3sXQ).
+
 ### Обновление macOS
 Обновите macOS до последней версии (Sonoma 14.6.1).
 
