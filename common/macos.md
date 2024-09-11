@@ -46,7 +46,7 @@ echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> ~/.zprofile
 
 Переоткройте терминал. Теперь `brew update` должен работать.
 
-### Установка компилятора и инструментов
+### Установка вспомогательных инструментов
 Введите в терминале (10 минут):
 ```
 brew install llvm@15 cppcheck coreutils cmake boost
