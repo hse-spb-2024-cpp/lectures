@@ -1,0 +1,20 @@
+#include <iostream>
+
+enum E { Option1, Option2, Option3 };
+
+int main() {
+    E e = Option2;
+    switch (e) {
+    case Option1: std::cout << "Option1\n"; break;
+    case Option2: std::cout << "Option2\n"; break;
+    case Option3: std::cout << "Option3\n"; break;
+    }
+
+    switch (e) {
+    #define PRINT_OPTION(e) case e: std::cout << #e "\n"; break;
+    PRINT_OPTION(Option1)
+    PRINT_OPTION(Option2)
+    PRINT_OPTION(Option3)
+    #undef PRINT_OPTION  // undefine, remove macro
+    }
+}
