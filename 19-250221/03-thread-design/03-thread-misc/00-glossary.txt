@@ -1,0 +1,4 @@
+https://bloomberg.github.io/bde-resources/doxygen/bde_api_prod/group__bsldoc__glossary.html#3.1.5
+const Thread-Safe
+
+default copy-ctor is const thread safe?
