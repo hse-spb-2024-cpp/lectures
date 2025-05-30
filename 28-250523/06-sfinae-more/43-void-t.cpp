@@ -20,5 +20,5 @@ int main() {
     A a{10};
     C c{30};
     assert(a + c == 40);  // should work
-    assert(a + "x" == 60);  // does not compile: no match for 'operator+'
+    // assert(a + "x" == 60);  // does not compile: no match for 'operator+'
 }

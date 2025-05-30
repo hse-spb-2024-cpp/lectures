@@ -47,7 +47,7 @@ int main() {
         MyClass<double> a;
         std::cout << a.foo() << "\n";  // 20
 
-        std::cout << a.foo<int>() << "\n";  // 10, but fails because of static_assert
+        // std::cout << a.foo<int>() << "\n";  // 10, but fails because of static_assert
 
         const auto &b = a;
         std::cout << b.foo() << "\n";  // 20
